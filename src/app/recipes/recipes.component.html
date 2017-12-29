@@ -1,0 +1,8 @@
+<ul class="recipes">
+  <li *ngFor="let recipe of recipes">
+    <!--<a routerLink="/detail/{{hero.id}}">-->
+      <span class="badge">{{recipe.id}}</span> {{recipe.name}}
+    <!--</a>-->
+    <!--<button class="delete" (click)="delete(hero)" title="delete hero">X</button>-->
+  </li>
+</ul>
